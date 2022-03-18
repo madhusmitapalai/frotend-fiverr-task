@@ -80,7 +80,8 @@ a {
     padding: 1rem 2rem;
 }
 .card:hover {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 /*media query*/
 @media screen and (max-width: 476px) {
