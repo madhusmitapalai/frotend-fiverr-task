@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --brand-color: #326bff;
+    --brand-font: Work Sans;
+    --teamColor: #1e9b0d;
+}
+body {
+    font-family: var(--brand-font) !important;
+}
+a {
+    text-decoration: none;
+}
+/*upper containe4*/
+.container{
+    padding: 0 2rem;
+}
+.container .upper {
+    text-align: center;
+}
+.container .img img {
+    border-radius: 50%;
+    max-width: 5rem;
+    padding-bottom: 0.8rem;
+}
+.container .upper h3 {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+.container p {
+    max-width: 340px;
+    margin: auto;
+    color: rgb(150, 150, 150);
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+/*row card*/
+.upper-a-div {
+    display: flex;
+    gap: 1rem;
+}
+.container .upper-a-div .circle1 {
+    background-color: pink;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+.container .upper-a-div .circle2 {
+    background-color: yellow;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+.container .upper-a-div h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.5rem;
+    padding: 0 0.5rem;
+    text-transform: capitalize;
+}
+.container .upper-a-div i {
+    color: #000;
+    font-size: 2rem;
+}
+.card p {
+    line-height: 1.2rem;
+    color: #000;
+    padding-bottom: 1rem;
+    letter-spacing: 0rem;
+}
+.card {
+    border: none;
+    padding: 1rem 2rem;
+}
+.card:hover {
+    background-color: rgb(241, 241, 241);
+}
+/*media query*/
+@media screen and (max-width: 476px) {
+    .container {
+        padding: 0.5rem;
+    }
+    .row {
+        border: none;
+    }
+    .upper-a-div {
+        display: flex;
+        gap: 0.1rem;
+    }
+    .container .upper-a-div h4 {
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 0 0.5rem;
+    }
+    .container .upper-a-div i {
+        font-size: 1.5rem;
+    }
+    
+}
+@media (min-width:480px) and (max-width: 771px) {
+   
+}
+@media (min-width:771px)and (max-width: 990px) {
+    
+}
+@media (min-width:991)and (max-width: 1014px) {
+    .container {
+        padding: 0;
+    }
+    .col-md-6{
+        margin: 0;
+    }
+    .card{
+        padding:  0 0;
+    }
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+}
