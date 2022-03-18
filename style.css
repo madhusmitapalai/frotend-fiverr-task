@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 /*upper containe4*/
-.container{
+.container {
     padding: 0 2rem;
 }
 .container .upper {
@@ -81,7 +81,7 @@ a {
 }
 .card:hover {
     background-color: rgb(238, 238, 238);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 /*media query*/
 @media screen and (max-width: 476px) {
@@ -103,25 +103,22 @@ a {
     .container .upper-a-div i {
         font-size: 1.5rem;
     }
-    
 }
-@media (min-width:480px) and (max-width: 771px) {
-   
+@media (min-width: 480px) and (max-width: 771px) {
 }
-@media (min-width:771px)and (max-width: 990px) {
-    
+@media (min-width: 771px) and (max-width: 990px) {
 }
-@media (min-width:991)and (max-width: 1014px) {
+@media (min-width: 991) and (max-width: 1014px) {
     .container {
         padding: 0;
     }
-    .col-md-6{
+    .col-md-6 {
         margin: 0;
     }
-    .card{
-        padding:  0 0;
+    .card {
+        padding: 0 0;
     }
-    .row{
+    .row {
         margin: 0;
         padding: 0;
     }
